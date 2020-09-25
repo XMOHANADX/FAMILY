@@ -1,0 +1,130 @@
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding: 0;
+    margin-left: 20%;
+    
+
+    
+}
+ ul li{
+
+
+width: 150px;
+height: 40px;
+background-color:#404040;
+font-size: 20px;
+display: inline-block;
+text-align: center;
+line-height: 40px;
+margin: 10px auto; 
+border-radius: 50%;}
+
+
+ul li a {
+    text-decoration: none;
+    color: #F5F5F1;
+    display: block;
+}
+
+ul li a:hover{ background-color: #FBBC05}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding: 0;
+    margin-left: 12%;
+    
+
+    
+}
+nav ul li{
+
+
+width: 200px;
+height: 40px;
+background-color:#404040;
+font-size: 20px;
+display: inline-block;
+text-align: center;
+line-height: 40px;
+margin: 5px auto; 
+border-radius: 50%; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #F5F5F1;
+    display: block;
+}
+
+nav ul li a:hover{ background-color: #FBBC05}
+
+
+
+*, body, html
+{margin: 0;
+  padding: 0;
+  max-width: 100%;
+       }
+   html{
+       height: 100%;
+   }    
+
+img{max-width: 100%;
+    width: 100%;
+}
+
+.cycle-slideshow{
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    position: relative;
+    margin: 5px  auto;
+
+}
+
+.cycle-prev, .cycle-next{
+    font-size: 500%;
+    color: red;
+    display: block;
+    position: absolute;
+    top: 40%;
+    z-index: 999;
+    cursor: pointer;
+}
+.cycle-prev{left: 2%;}
+.cycle-next{right: 2%;}
+
+.cycle-pager{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    z-index: 998;
+    bottom: 10px;
+}
+.cycle-pager span{
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    border: 1px solid red;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+    text-indent: 99999999%;
+    white-space: nowrap;
+    background-color: rgba(207, 22, 22, 0.644);
+}
+
+.cycle-pager .cycle-pager-active { background-color: red;}
+
+
+
+.movie{
+    width: 100%;
+    background-color: #221F1F;
+    height: 20%;
+    max-width: 100%;
+}
