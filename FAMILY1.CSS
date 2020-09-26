@@ -1,3 +1,43 @@
+#CONTENT{
+    width: 1888px ;
+    height: 2000px;
+    position: relative ;
+    margin: 0 auto;
+    
+  }
+
+  header{background-color:#404040;
+
+    max-width: 100%;
+  height: 70px;
+  margin: 0 auto;
+  position: relative;
+
+}
+nav{
+  background-color:#404040 ;
+  max-width:100% ;
+  height: 50px;
+  margin: 0 auto;
+  position: relative;
+}
+
+main{
+  background-color: #221F1F;
+  width: 100%;
+  height: 2100px;
+  
+}
+
+footer{
+  
+  width: 100%;
+  height: 200px;
+  background-color: darkgoldenrod;
+
+  
+}
+
 ul{
     list-style: none;
     margin: 0;
