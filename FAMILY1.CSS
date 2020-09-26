@@ -2,24 +2,23 @@ ul{
     list-style: none;
     margin: 0;
     padding: 0;
-    padding: 0;
-    margin-left: 20%;
+    margin-left: 30%;
     
 
     
 }
  ul li{
-
-
+font-variant: small-caps;
 width: 150px;
 height: 40px;
 background-color:#404040;
-font-size: 20px;
+font-size: 28px;
 display: inline-block;
 text-align: center;
 line-height: 40px;
-margin: 10px auto; 
-border-radius: 50%;}
+margin: 15px auto; 
+border-radius: 50%;
+}
 
 
 ul li a {
@@ -35,23 +34,24 @@ nav ul{
     margin: 0;
     padding: 0;
     padding: 0;
-    margin-left: 12%;
+    margin-left: 3%;
     
 
     
 }
 nav ul li{
-
-
 width: 200px;
 height: 40px;
 background-color:#404040;
-font-size: 20px;
+font-size: 24px;
+font-variant: normal;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 display: inline-block;
 text-align: center;
 line-height: 40px;
 margin: 5px auto; 
 border-radius: 50%; 
+
 }
 
 nav ul li a {
@@ -129,15 +129,16 @@ img{max-width: 100%;
     max-width: 100%;
 }
 #A1{
-    margin-left: 37px;
-    margin-top: 30px;
+    
+    margin-left: 65px;
+    margin-top: 35px;
     background-color: #404040;
-    width: 225px;
+    width: 222px;
     height:300px;
-    position: relative;top: 130px;
+    position: relative;top: 170px;
     display: inline-block;
-    border: solid rgb(0, 255, 106) ;
-    border
+    border: solid #FBBC05 ;
+
 
 
 
